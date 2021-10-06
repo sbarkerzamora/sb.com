@@ -6,6 +6,11 @@ h1{
   font-size: 42px !important;
 }
 
+h2{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 30px !important;
+}
+
 .sb-logo{
   font-family: 'Fredericka the Great', cursive;
   font-size: 40px !important;
@@ -20,7 +25,7 @@ h1{
 
 @media screen and (max-width: 800px) {
   #hero {
-    height: 600px;
+    height: 880px;
   }
 }
 
