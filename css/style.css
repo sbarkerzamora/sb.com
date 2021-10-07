@@ -37,12 +37,15 @@ img.img-work:hover {
   -webkit-filter: blur(3px);
 }
 
-@media screen and (max-width: 800px) {
-  #hero {
-    height: 880px;
-  }
-}
 
 .hero-inner{
   background-color: white;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+  #hero {
+    height: 1120px;
+  }
 }
