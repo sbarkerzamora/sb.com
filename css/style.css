@@ -20,7 +20,7 @@ a.btn.btn-outline-dark {
     font-family: 'Fredericka the Great', cursive;
     margin-left: 5px;
     margin-right: 5px;
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 
 img.img-work.mx-auto.d-block {
@@ -48,7 +48,7 @@ img.img-work.mx-auto.d-block {
 }
 
 .img-modal-detail{
-  width: 100%; 
+  width: 100%;
 }
 
 #contact {
