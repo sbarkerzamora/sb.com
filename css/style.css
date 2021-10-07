@@ -16,6 +16,17 @@ h3 {
   font-size: 24px !important;
 }
 
+a.btn.btn-outline-dark {
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px !important;
+}
+
+img.img-work.mx-auto.d-block {
+    width: 100%;
+}
+
 .sb-logo{
   font-family: 'Fredericka the Great', cursive;
   font-size: 40px !important;
@@ -28,19 +39,20 @@ h3 {
   widows: 100%;
 }
 
+.hero-inner{
+  background-color: white;
+}
+
 #work {
 
 }
 
-img.img-work:hover {
-  /* Add the blur effect */
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+.img-modal-detail{
+  width: 100%; 
 }
 
+#contact {
 
-.hero-inner{
-  background-color: white;
 }
 
 

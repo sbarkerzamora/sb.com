@@ -20,27 +20,20 @@
 
 <header>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand sb-logo" href="https://stephanbarker.com">{SB}</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#work">Recent works</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#lifestyle">Lifestyle</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <nav id="navbar-example2" class="navbar navbar-light bg-light px-3 fixed-top">
+    <a class="navbar-brand sb-logo" href="https://stephanbarker.com">{SB}</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="btn btn-outline-dark" href="#work">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-outline-dark" href="#lifestyle">Lifestyle</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-outline-dark" href="#contact">Contact</a>
+      </li>
+    </ul>
+</nav>
 
 </header>
 
@@ -57,7 +50,7 @@
           <p>Throughout my career I have also worked as a freelance on various web projects with Nicaraguan and foreign clients (All on WordPress), I can mention that at some point in my career I worked on projects for Claro Nicaragua and Autonica, companies in Nicaragua.</p>
 
           <div class="d-grid gap-2 d-md-block">
-            <a class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" href="#contact">Let's Work</a>
+            <a class="btn btn-outline-dark btn-lg px-4 me-md-2 fw-bold" href="#contact">Let's Work</a>
           </div>
 
         </div>
@@ -92,11 +85,15 @@
 
     <div class="row">
 
-      <div class="col-lg-4 col-sm-1 py-4 border">
+      <div class="col-lg-4 col-sm-1 py-4">
 
-        <h3 class="text-center">Tu Menu Digital (Subscription Ecommerce Platform)</h3>
-
-        <a href="#" data-bs-toggle="modal" data-bs-target="#work1"><img src="./img/tmd.png" alt="" class="img-work mx-auto d-block"></a>
+        <div class="card">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#work1"><img src="./img/tmd.png" alt="" class="img-work mx-auto d-block"></a>
+          <div class="card-body">
+            <h3 class="card-title">Tu Menu Digital (Subscription Ecommerce Platform)</h3>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#work1" class="btn btn-outline-dark">Details</a>
+          </div>
+        </div>
 
         <!-- Modal -->
         <div class="modal fade" id="work1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -108,12 +105,12 @@
               </div>
               <div class="modal-body">
                 <p>Digital menu service for bars and restaurants. TMD is a platform on which business owners can create their bar or restaurant menu by paying an annual subscription. Easy to use and self-managed.</p>
-                <img src="./img/tmd-show.png" alt="" class="mx-auto d-block" width="466">
+                <img src="./img/tmd-show.png" alt="" class="mx-auto d-block img-modal-detail">
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
                 <a class="btn btn-primary px-4 me-md-2 fw-bold" href="https://tumenudigital.app/">Go to project</a>
-                <a class="btn btn-primary px-4 me-md-2 fw-bold" href="#contact">Let's Work</a>
+                <a class="btn btn-outline-dark px-4 me-md-2 fw-bold" href="#contact">Let's Work</a>
               </div>
             </div>
           </div>
@@ -121,11 +118,15 @@
 
       </div>
 
-      <div class="col-lg-4 col-sm-1 py-4 border">
+      <div class="col-lg-4 col-sm-1 py-4">
 
-        <h3 class="text-center">HRTD - Architecture studio. (WordPress & Elementor Pro)</h3>
-
-        <a href="#" data-bs-toggle="modal" data-bs-target="#work2"><img src="./img/hurtado.png" alt="" class="img-work mx-auto d-block"></a>
+        <div class="card">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#work2"><img src="./img/hurtado.png" alt="" class="img-work mx-auto d-block"></a>
+          <div class="card-body">
+            <h3 class="card-title">HRTD - Architecture studio. (WordPress & Elementor Pro)</h3>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#work2" class="btn btn-outline-dark">Details</a>
+          </div>
+        </div>
 
         <!-- Modal -->
         <div class="modal fade" id="work2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -139,9 +140,9 @@
                 The website is built on WordPress, Hello theme and Elementor Pro Page Builder plugin. Clean and minimalist design. It has contact forms, portfolio and is multilingual.
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
                 <a class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" href="https://www.hurtadoarq.com/">Go to project</a>
-                <a class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" href="#contact">Let's Work</a>
+                <a class="btn btn-outline-dark btn-lg px-4 me-md-2 fw-bold" href="#contact">Let's Work</a>
               </div>
             </div>
           </div>
@@ -149,11 +150,15 @@
 
       </div>
 
-      <div class="col-lg-4 col-sm-1 py-4 border">
+      <div class="col-lg-4 col-sm-1 py-4">
 
-        <h3 class="text-center">Patatas Nicaragua Ecommerce (WordPress & Woocommerce)</h3>
-
-        <a href="#" data-bs-toggle="modal" data-bs-target="#work3"><img src="./img/patatas.png" alt="" class="img-work mx-auto d-block"></a>
+        <div class="card">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#work3"><img src="./img/patatas.png" alt="" class="img-work mx-auto d-block"></a>
+          <div class="card-body">
+            <h3 class="card-title">Patatas Nicaragua Ecommerce (WordPress & Woocommerce)</h3>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#work3" class="btn btn-outline-dark">Details</a>
+          </div>
+        </div>
 
         <!-- Modal -->
         <div class="modal fade" id="work3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -165,10 +170,10 @@
               </div>
               <div class="modal-body">
                 <p>Ecommerce store that made in WordPress & Woocommerce. Elementor Pro Page Builder and the Woodmart theme were used on this website. Several plugins were also used to customize the checkout, enabling Woocomerce to obtain the customer's location, making delivery here in Nicaragua easier. Notably, the client wanted it to feel like an application on the web. This site only works on mobile at the request of the client.</p>
-                <img src="./img/patatas-show.png" alt="" class="mx-auto d-block" width="466">
+                <img src="./img/patatas-show.png" alt="" class="mx-auto d-block img-modal-detail">
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
                 <a class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" href="#contact">Let's Work</a>
               </div>
             </div>
@@ -245,7 +250,7 @@
 
 </div>
 
-<div class="contact">
+<div id="contact">
 
   <div class="container">
 
