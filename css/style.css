@@ -1,0 +1,64 @@
+body{
+  font-family: 'Oswald', sans-serif;
+  padding-top: 86px;
+}
+
+h1 {
+  font-size: 42px !important;
+}
+
+h2 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 30px !important;
+}
+
+h3 {
+  font-size: 24px !important;
+}
+
+a.btn.btn-outline-dark {
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px !important;
+}
+
+img.img-work.mx-auto.d-block {
+    width: 100%;
+}
+
+.sb-logo{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 40px !important;
+}
+
+#hero {
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  height: 450px;
+  widows: 100%;
+}
+
+.hero-inner{
+  background-color: white;
+}
+
+#work {
+
+}
+
+.img-modal-detail{
+  width: 100%;
+}
+
+#contact {
+
+}
+
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+  #hero {
+    height: 1120px;
+  }
+}
